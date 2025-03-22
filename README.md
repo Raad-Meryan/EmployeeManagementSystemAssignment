@@ -13,16 +13,13 @@ This is a .NET Core Web API project that provides the following features:
 
 The project consists of two key screens:
 
-1- Login Screen
-
-2- A screen for Employee Inquiries, as well as Employee Entry and Modification.
- 
+- Login Screen
+- A screen for Employee Inquiries, as well as Employee Entry and Modification. 
 
 Project Requirements:
 
-1- Technology Stack: .NET Core for the backend, Microsoft SQL Server for the database.
-
-2- Database Operations: We prefer that database operations be handled through Views and Stored Procedures for this project."
+- Technology Stack: .NET Core for the backend, Microsoft SQL Server for the database.
+- Database Operations: We prefer that database operations be handled through Views and Stored Procedures for this project."
 
 
 
