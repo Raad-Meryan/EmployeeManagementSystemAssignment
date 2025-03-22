@@ -1,0 +1,151 @@
+===============================================
+              SQL DOCUMENTATION
+===============================================
+
+1. VerifyUserLogin Procedure
+--------------------------------------
+Verifies user credentials by checking the provided username and password hash.
+
+CREATE PROCEDURE VerifyUserLogin
+    @Username NVARCHAR(100), 
+    @PasswordHash NVARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (
+        SELECT 1 FROM Users
+        WHERE Username = @Username
+        AND PasswordHash = @PasswordHash
+    )
+    BEGIN 
+        SELECT 'Login Successful' AS Message;
+    END
+    ELSE
+    BEGIN
+        SELECT 'Username or Password is invalid' AS Message;
+    END
+END;
+
+
+2. GetEmployees Procedure
+--------------------------------------
+Retrieves all employees ordered by first name.
+
+CREATE PROCEDURE GetEmployees AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT EmployeeID, FirstName, LastName, JobTitle, DateHired, Salary
+    FROM Employees
+    ORDER BY FirstName ASC;
+END;
+
+
+3. AddEmployee Procedure
+--------------------------------------
+Adds a new employee to the database.
+
+CREATE PROCEDURE AddEmployee
+    @FirstName NVARCHAR(100),
+    @LastName NVARCHAR(100),
+    @JobTitle NVARCHAR(100),
+    @DateHired DATE,
+    @Salary DECIMAL(10, 2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Employees (FirstName, LastName, JobTitle, DateHired, Salary)
+    VALUES (@FirstName, @LastName, @JobTitle, @DateHired, @Salary)
+
+    SELECT 'Employee Added Successfully ;)' AS Message;
+END;
+
+
+4. UpdateEmployee Procedure
+--------------------------------------
+Updates employee details. Allows partial updates using ISNULL.
+
+CREATE PROCEDURE UpdateEmployee
+    @EmployeeId INT,
+    @FirstName NVARCHAR(100) = NULL,
+    @LastName NVARCHAR(100)= NULL,
+    @JobTitle NVARCHAR(100) = NULL,
+    @DateHired DATE= NULL,
+    @Salary DECIMAL(10, 2) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (SELECT 1 FROM Employees WHERE EmployeeID = @EmployeeId)
+    BEGIN
+        UPDATE Employees
+        SET FirstName = COALESCE(@FirstName, FirstName),
+            LastName = COALESCE(@LastName, LastName),
+            JobTitle = COALESCE(@JobTitle, JobTitle),
+            DateHired = COALESCE(@DateHired, DateHired),
+            Salary = COALESCE(@Salary, Salary)
+        WHERE EmployeeID = @EmployeeId;
+
+        SELECT 'Employee updated successfully! :)' AS Message;
+    END
+    ELSE
+    BEGIN
+        SELECT 'Employee not found :(' AS Message;
+    END
+END;
+
+
+5. DeleteEmployee Procedure
+--------------------------------------
+Deletes an employee record if they exist.
+
+CREATE PROCEDURE DeleteEmployee
+    @Id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (SELECT 1 FROM Employees WHERE EmployeeID = @Id)
+    BEGIN
+        DELETE FROM Employees WHERE EmployeeID = @Id;
+        SELECT 'Employee Deleted Successfully :)' AS MESSAGE;
+    END
+    ELSE
+    BEGIN
+        SELECT 'Employee Not Found :(' AS MESSAGE;
+    END
+END;
+
+
+
+=============================================================
+Views
+1. TopSalaries View
+--------------------------------------
+Displays the top 5 highest-paid employees.
+
+CREATE VIEW TopSalaries AS
+SELECT TOP 5 
+    EmployeeId,
+    FirstName + ' ' + LastName AS FullName,
+    JobTitle,
+    Salary
+FROM Employees
+ORDER BY Salary DESC;
+
+
+2. MostExp View
+--------------------------------------
+Displays the top 5 employees with the most years of experience.
+
+CREATE VIEW MostExp AS
+SELECT TOP 5 
+    EmployeeId,
+    FirstName + ' ' + LastName AS FullName,
+    JobTitle,
+    Salary,
+    DATEDIFF(YEAR, DateHired, GETDATE()) AS YearOfExp
+FROM Employees 
+ORDER BY YearOfExp DESC;

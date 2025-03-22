@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "AddEmp",
+    "RelativePath": "api/Employee/AddEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empDto",
+        "Type": "EmpAssignment.DTOs.EmpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employee/DeleteEmployee{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "GetEmps",
+    "RelativePath": "api/Employee/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "UpdateEmp",
+    "RelativePath": "api/Employee/UpdateEmployee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empDto",
+        "Type": "EmpAssignment.DTOs.UpdateEmpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "ViewTopExperience",
+    "RelativePath": "api/Employee/ViewTopExperience",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.EmployeeController",
+    "Method": "ViewTopSalaries",
+    "RelativePath": "api/Employee/ViewTopSalaries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpAssignment.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "EmpAssignment.DTOs.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
