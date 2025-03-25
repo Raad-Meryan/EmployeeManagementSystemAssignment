@@ -107,4 +107,4 @@ Since this is my first time working with frontend technologies, I’ve implement
 
 If you have any questions or suggestions, feel free to contact me at:
 
-** meryanraad@gmail.com**
+**meryanraad@gmail.com**
