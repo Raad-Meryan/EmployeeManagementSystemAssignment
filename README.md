@@ -1,71 +1,110 @@
-Employee Management System (CRUD Operations with .NET Core and SQL Server)
+# Employee Management System (CRUD Operations with .NET Core and SQL Server)
 
-Project Overview
+## Project Overview
 
-This is a .NET Core Web API project that provides the following features:
+This is a .NET Core Web API project that offers a basic Employee Management System with the following features:
 
-- Employee Inquiry (via SQL View)
-- Employee Entry (Add, Update, Delete Employees via Stored Procedures)
-- Login Authentication
-- Swagger Integration for API Testing
+- User Login Authentication
+-  Employee Management (Add, Update, Delete)
+- Employee Inquiry (Top Salaries and Experience via Views)
+- Swagger Integration for backend API testing
+- Basic frontend UI (HTML + Bootstrap + JavaScript)
 
-"Project Overview:
+The system includes two main screens:
+1. **Login Screen** (`index.html`)
+2. **Employee Screen** (`employee.html`) for CRUD operations and top salaries view
 
-The project consists of two key screens:
+---
 
-- Login Screen
-- A screen for Employee Inquiries, as well as Employee Entry and Modification. 
+## Tech Stack
 
-Project Requirements:
+- **Backend**: ASP.NET Core Web API
+- **Database**: Microsoft SQL Server (Views + Stored Procedures)
+- **Frontend**: HTML, Bootstrap 5, Vanilla JavaScript
 
-- Technology Stack: .NET Core for the backend, Microsoft SQL Server for the database.
-- Database Operations: We prefer that database operations be handled through Views and Stored Procedures for this project."
+---
 
+## Setup Instructions
 
+### 1. Database Setup
 
-Setup Instructions:
+- Open SQL Server Management Studio (SSMS).
+- Run `EmployeeDB_FullScript.sql` to create the full schema including:
+  - Tables
+  - Stored Procedures
+  - Views
 
-1- Database Setup
+### 2. Application Configuration
 
-	1- Open SQL Server Management Studio (SSMS)
-	2- Run EmployeeDB_FullScript.sql script to create the database, tables, views, and stored procedures.
+- Open `appsettings.json`.
+- Update the `"Default"` connection string to match your local SQL Server instance.
 
-2- App Configuration:
+### 3. Build and Run
 
-	1- Open the appsettings.json file.
-	2- Update the connection string if needed to match with your SQL Server instance.
+- Open the solution in Visual Studio.
+- Run the project.
+- Test the API using Swagger at `https://localhost:<port>/swagger`.
 
-3- Build and Run
+---
 
-	1- Open the project in Visual Studio.
-	2- Run the program.
-	3- Now you should be able to test via Swagger. 
+## Sample Data for Testing
 
-4- Sample Data for Testing:
-Add Employee:
+### Add Employee (POST `/api/Employee/AddEmployee`)
+```json
+{
+  "firstName": "Ahmad",
+  "lastName": "Ali",
+  "jobTitle": "UI/UX",
+  "dateHired": "2022-01-16",
+  "salary": 1150.00
+}
+```
 
-	{
-	  "firstName": "Ahmad",
-	  "lastName": "Ali",
-	  "jobTitle": "UI/UX",
-	  "dateHired": "2022-01-16",
-	  "salary": 1150.00
-	}
+### Valid Login Credentials (POST `/api/Login`)
+- `admin` / `admin123`
+- `user1` / `password1`
 
-Valid Login Credentials:
+---
 
-	Username: admin
-	Password: admin123
+## Update Logic (Dynamic Partial Update)
 
-	Username: user1	
-	Password: password1
+The backend supports **dynamic partial updates** using the `ISNULL()` function inside the stored procedure. That means:
+- You only need to send the fields you want to update.
+- All others will remain unchanged.
 
-
-For testing update logic, try modifying one or two fields using dynamic updates with ISNULL to make it more dynamic so you don't have to update every field, the most important one is the ID.
-
-id [1]
+Example (updating salary only for employee with ID 1):
+```json
 {
   "salary": 1500.00
 }
+```
 
-If you have any question, please feel free to contact me at: meryanraad@gmail.com
+> The ID must always be included.
+
+---
+
+## Frontend Notes
+
+Since this is my first time working with frontend technologies, I’ve implemented the following:
+
+- Basic login page (`index.html`)
+- Basic employee management page (`employee.html`) including:
+  - Add, View, Update, and Delete employees
+  - View top salaries (via SQL view)
+
+### Known Limitations:
+
+- **Backend Update is Fully Dynamic** (supports partial field updates)
+- **Frontend Update Requires All Fields**  
+  At the moment, due to time and learning constraints, the update form requires users to fill all fields. While the backend supports partial updates, dynamically detecting and sending only changed fields on the frontend was left out for simplicity.
+
+- **Top Experience View Limitation:**  
+  The backend provides top experience via a **view**, but extracting the exact number of experience years in the frontend was challenging (since it's calculated via SQL). A more complete solution would move the experience logic into a **stored procedure** to extract and display formatted data properly.
+
+---
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact me at:
+
+** meryanraad@gmail.com**
