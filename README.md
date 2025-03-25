@@ -5,7 +5,7 @@
 This is a .NET Core Web API project that offers a basic Employee Management System with the following features:
 
 - User Login Authentication
--  Employee Management (Add, Update, Delete)
+- Employee Management (Add, Update, Delete)
 - Employee Inquiry (Top Salaries and Experience via Views)
 - Swagger Integration for backend API testing
 - Basic frontend UI (HTML + Bootstrap + JavaScript)
@@ -16,7 +16,7 @@ The system includes two main screens:
 
 ---
 
-## Tech Stack
+## Technology Used
 
 - **Backend**: ASP.NET Core Web API
 - **Database**: Microsoft SQL Server (Views + Stored Procedures)
@@ -37,7 +37,7 @@ The system includes two main screens:
 ### 2. Application Configuration
 
 - Open `appsettings.json`.
-- Update the `"Default"` connection string to match your local SQL Server instance.
+- Update the `"Default"` connection string to match your local SQL Server instance if needed, but it is already be the same if you run the `EmployeeDB_FullScript.sql` which already have the same connection string in the appsettings so no need to do that, but it is better to double check.
 
 ### 3. Build and Run
 
@@ -61,7 +61,7 @@ The system includes two main screens:
 ```
 
 ### Valid Login Credentials (POST `/api/Login`)
-- `admin` / `admin123`
+- `admin` / `123`
 - `user1` / `password1`
 
 ---
@@ -87,12 +87,12 @@ Example (updating salary only for employee with ID 1):
 
 Since this is my first time working with frontend technologies, I’ve implemented the following:
 
-- Basic login page (`index.html`)
+- Basic login page (`index.html`), when entering the valid credentials it will direct you to the employee.html page. However you can enter the employee.html directly.
 - Basic employee management page (`employee.html`) including:
   - Add, View, Update, and Delete employees
   - View top salaries (via SQL view)
 
-### Known Limitations:
+### Limitations:
 
 - **Backend Update is Fully Dynamic** (supports partial field updates)
 - **Frontend Update Requires All Fields**  
