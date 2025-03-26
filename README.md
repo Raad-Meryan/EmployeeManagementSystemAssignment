@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a .NET Core Web API project that offers a basic Employee Management System with the following features:
+This is a .NET Core Web API project that has a basic Employee Management System:
 
 - User Login Authentication
 - Employee Management (Add, Update, Delete)
@@ -81,6 +81,9 @@ Example (updating salary only for employee with ID 1):
 
 > The ID must always be included.
 
+
+> There are two views features, top salaries, and top years of experience, you can just try them and will see the results of each one.
+
 ---
 
 ## Frontend Notes
@@ -89,7 +92,7 @@ Since this is my first time working with frontend technologies, I’ve implement
 
 - Basic login page (`index.html`), when entering the valid credentials it will direct you to the employee.html page. However you can enter the employee.html directly.
 - Basic employee management page (`employee.html`) including:
-  - Add, View, Update, and Delete employees
+  - Add, View, Update, and Delete employees (each operation was done using SQL procedures)
   - View top salaries (via SQL view)
 
 ### Limitations:
