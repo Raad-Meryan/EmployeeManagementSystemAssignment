@@ -20,6 +20,4 @@ namespace EmpAssignment.Controllers
             return Unauthorized(new { message = result });
         }
     }
-
-    
 }

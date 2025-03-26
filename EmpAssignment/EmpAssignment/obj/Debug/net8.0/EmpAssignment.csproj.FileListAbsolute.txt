@@ -162,3 +162,4 @@ C:\Users\raedm\Desktop\SubmissionFolder\EmpAssignment\EmpAssignment\obj\Debug\ne
 C:\Users\raedm\Desktop\SubmissionFolder\EmpAssignment\EmpAssignment\obj\Debug\net8.0\EmpAssignment.pdb
 C:\Users\raedm\Desktop\SubmissionFolder\EmpAssignment\EmpAssignment\obj\Debug\net8.0\EmpAssignment.genruntimeconfig.cache
 C:\Users\raedm\Desktop\SubmissionFolder\EmpAssignment\EmpAssignment\obj\Debug\net8.0\ref\EmpAssignment.dll
+C:\Users\raedm\Desktop\SubmissionFolder\EmpAssignment\EmpAssignment\bin\Debug\net8.0\EmpAssignment.staticwebassets.runtime.json

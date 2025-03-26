@@ -1,0 +1,34 @@
+﻿body {
+    background-color: #354152;
+    color: #7e8ba3;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1, h3 {
+    color: #fff;
+}
+
+.table {
+    background-color: #2a3545;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #8ceabb;
+    color: #354152;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.btn-primary, .btn-info {
+    width: 100%;
+}
+
+#error-message {
+    text-align: center;
+    margin-top: 15px;
+}

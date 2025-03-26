@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\css\\employee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\css\\employee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\employee.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\employee.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\js\\employee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\js\\employee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\services\\iempservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\services\\iempservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\css\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\css\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\services\\empservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\services\\empservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\dtos\\empexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\dtos\\empexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\dtos\\empsalaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\dtos\\empsalaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\dtos\\empdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\dtos\\empdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\dtos\\updateempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\dtos\\updateempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|c:\\users\\raedm\\desktop\\submissionfolder\\empassignment\\empassignment\\dtos\\empdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926E0CFD-45C0-447A-88CB-FE5D0AAD8B96}|EmpAssignment\\EmpAssignment.csproj|solutionrelative:empassignment\\dtos\\empdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,148 +58,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\appsettings.json",
-              "RelativeDocumentMoniker": "EmpAssignment\\appsettings.json",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\appsettings.json",
-              "RelativeToolTip": "EmpAssignment\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-22T03:51:49.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Program.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\Program.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Program.cs",
-              "RelativeToolTip": "EmpAssignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T03:44:37.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmpExperience.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpExperience.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\DTOs\\EmpExperience.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpExperience.cs",
-              "RelativeToolTip": "EmpAssignment\\DTOs\\EmpExperience.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T03:01:22.036Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EmpSalaries.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpSalaries.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\DTOs\\EmpSalaries.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpSalaries.cs",
-              "RelativeToolTip": "EmpAssignment\\DTOs\\EmpSalaries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T02:59:35.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmpService.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\IEmpService.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\Services\\IEmpService.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\IEmpService.cs",
-              "RelativeToolTip": "EmpAssignment\\Services\\IEmpService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T02:42:58.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmpDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpDetailsDto.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\DTOs\\EmpDetailsDto.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpDetailsDto.cs",
-              "RelativeToolTip": "EmpAssignment\\DTOs\\EmpDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:16:52.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateEmpDto.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\UpdateEmpDto.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\DTOs\\UpdateEmpDto.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\UpdateEmpDto.cs",
-              "RelativeToolTip": "EmpAssignment\\DTOs\\UpdateEmpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:37:09.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "EmpService.cs",
               "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\EmpService.cs",
               "RelativeDocumentMoniker": "EmpAssignment\\Services\\EmpService.cs",
               "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\EmpService.cs",
               "RelativeToolTip": "EmpAssignment\\Services\\EmpService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:08:20.52Z"
+              "WhenOpened": "2025-03-25T11:57:48.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "employee.js",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\js\\employee.js",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\js\\employee.js",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\js\\employee.js",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\js\\employee.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAcwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-25T14:42:29.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "employee.css",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\css\\employee.css",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\css\\employee.css",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\css\\employee.css",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\css\\employee.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-25T13:48:37.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "employee.html",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\employee.html",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\employee.html",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\employee.html",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\employee.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-23T22:05:59.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\js\\login.js",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\js\\login.js",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\js\\login.js",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\js\\login.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-23T22:55:19.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "loginStyle.css",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\css\\loginStyle.css",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\css\\loginStyle.css",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\css\\loginStyle.css",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\css\\loginStyle.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-23T22:15:38.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "EmpAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Program.cs",
+              "RelativeToolTip": "EmpAssignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:01:50.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "EmpAssignment\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\index.html",
+              "RelativeToolTip": "EmpAssignment\\wwwroot\\index.html",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-23T22:05:12.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmpAssignment\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmpAssignment\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:05:49.315Z"
+              "WhenOpened": "2025-03-23T10:46:24.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Services\\UserService.cs",
-              "RelativeToolTip": "EmpAssignment\\Services\\UserService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:02:22.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "EmpAssignment\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\Controllers\\LoginController.cs",
               "RelativeToolTip": "EmpAssignment\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:58:18.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmpDto.cs",
-              "DocumentMoniker": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpDto.cs",
-              "RelativeDocumentMoniker": "EmpAssignment\\DTOs\\EmpDto.cs",
-              "ToolTip": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\DTOs\\EmpDto.cs",
-              "RelativeToolTip": "EmpAssignment\\DTOs\\EmpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:12:11.078Z"
+              "WhenOpened": "2025-03-23T10:45:45.679Z",
+              "EditorCaption": ""
             }
           ]
         }

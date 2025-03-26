@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\css\\loginStyle.css",
+      "PackagePath": "staticwebassets\\css\\loginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\employee.html",
+      "PackagePath": "staticwebassets\\employee.html"
+    },
+    {
+      "Id": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\raedm\\Desktop\\SubmissionFolder\\EmpAssignment\\EmpAssignment\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmpAssignment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmpAssignment.props",
+      "PackagePath": "build\\EmpAssignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmpAssignment.props",
+      "PackagePath": "buildMultiTargeting\\EmpAssignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmpAssignment.props",
+      "PackagePath": "buildTransitive\\EmpAssignment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
